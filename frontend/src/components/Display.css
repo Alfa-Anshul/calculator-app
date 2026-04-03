@@ -1,0 +1,25 @@
+.display {
+  background: #1c1c1e;
+  padding: 20px 24px 12px;
+  text-align: right;
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.expression {
+  font-size: 0.8rem;
+  color: #636366;
+  min-height: 1.2em;
+  word-break: break-all;
+}
+
+.main-value {
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: -1px;
+  transition: font-size 0.1s;
+  word-break: break-all;
+}

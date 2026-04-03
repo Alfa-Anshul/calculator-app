@@ -1,0 +1,23 @@
+.key {
+  aspect-ratio: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.08s, transform 0.06s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.key--num    { background: #2c2c2e; color: #fff; }
+.key--func   { background: #636366; color: #fff; }
+.key--op     { background: #ff9f0a; color: #fff; }
+.key--eq     { background: #ff9f0a; color: #fff; }
+
+.key--pressed { filter: brightness(1.35); transform: scale(0.94); }
+
+.key:hover { filter: brightness(1.15); }
